@@ -6,7 +6,7 @@
    - File image: `h3-eflasher-friendlywrt-4.14-armhf-20210512.img.gz`
    
 ## Bước 2: Copy các file cần thiết vào thẻ nhớ
-1. Sau khi cài đặt xong, copy các tệp sau vào ổ đĩa vừa được tạo ở bước 1:
+1. Sau khi cài đặt xong, copy các tệp sau vào ổ đĩa (FriendlyARM) vừa được tạo ở bước 1:
    - **File cấu hình EFlasher**: `eflasher.conf`
    - **Firmware thiết bị**: `openwrt-sunxi-cortexa7-xunlong_orangepi-pc-plus-squashfs-sdcard.img.gz` (lấy từ bản build mới nhất)
 
