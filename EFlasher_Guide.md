@@ -12,10 +12,7 @@
 
 ## Bước 3: Boot thiết bị và cấu hình LED báo hiệu
 1. Cắm thẻ nhớ vào thiết bị **MIRA V4 SV3** để boot.
-2. Sử dụng **USB-TTL RS232** để kết nối console vào thiết bị. Thông tin đăng nhập mặc định là:
-   - **Username**: `pi`
-   - **Password**: `pi`
-
+2. Sử dụng **USB-TTL RS232** để kết nối console vào thiết bị (baud rate: 115200bps). Thông tin đăng nhập mặc định theo hướng dẫn trên màn hình console.
 3. Thêm đoạn mã sau vào file `/opt/run-eflasher.sh` để nháy LED báo hiệu:
 
    ```bash
@@ -63,6 +60,7 @@ done
 ## Bước 4: Khởi động lại và kiểm tra
 1. Khởi động lại thiết bị để kiểm tra việc boot và copy Firmware vào bộ nhớ eMMC.
 2. Sau khi hoàn tất, đèn LED màu đỏ (LED3) sẽ nhấp nháy liên tục báo hiệu.
+3. Tắt thiết bị, rút thẻ nhớ ra kết thúc việc nạp Firmware cho thiết bị
 
 ## Ghi chú
 - Đảm bảo các tệp cần thiết được sao chép chính xác vào thẻ nhớ.
